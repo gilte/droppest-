@@ -32,6 +32,7 @@ body{
         width: 860px;
         height:300px;
         border: 0px;
+        margin-top: 100px;
       }
       #pris{
         display: flex;
