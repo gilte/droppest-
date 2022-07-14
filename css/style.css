@@ -9,7 +9,7 @@ body{
       }
       
       #container{
-        color: white;
+        color: red;
         
       }
       #iframe{
@@ -27,6 +27,20 @@ body{
         height: 200px;
         background-ocolor: Silver;
       
+      }
+      #iframes{
+        width: 860px;
+        height:300px;
+        border: 0px;
+      }
+      #pris{
+        display: flex;
+        text-align:center;
+        margin-left:auto;
+			  margin-right:auto;
+			  opacity: 80%;
+        width;860px;
+        height: 200px;
       }
 p{color:#696969;
 			    font-size:11px;
