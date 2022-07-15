@@ -7,17 +7,6 @@ body{
         
         text-align: center;
       }
-      
-      #container{
-        color: white;
-        margin-top: 50px;
-        opacity: 90%;
-        
-        
-        
-        
-        
-      }
       #iframe{
         width: 860px;
         height:300px;
@@ -31,23 +20,9 @@ body{
 			  opacity: 80%;
         width;860px;
         height: 200px;
-      }
-#iframes{
-        width: 860px;
-        height:300px;
-        border: 0px;
-      }
-      #pris{
-        display: flex;
-        text-align:center;
-        margin-left:50px;
-			  margin-right:50px;
-			  opacity: 80%;
-        width;860px;
-        height: 200px;
-      }
+        background-color: Silver;
       
-      
+      }
 p{color:#696969;
 			    font-size:11px;
 			    
@@ -166,7 +141,7 @@ p{color:#696969;
 			        
 			        font-size:15px;
 			        
-			        margin-top:100px;
+			        margin-top:15px;
 			        
 			        
 			        flex-direction: row;
