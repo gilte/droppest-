@@ -11,6 +11,7 @@ body{
         width: 860px;
         height:300px;
         border: 0px;
+        
       }
       #pri{
         display: flex;
@@ -20,6 +21,7 @@ body{
 			  opacity: 80%;
         width;860px;
         height: 200px;
+        margin-top:10;
         
       
       }
