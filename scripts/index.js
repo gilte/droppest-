@@ -385,14 +385,14 @@
            let li0040 = li040+li40;
            
                     <!-- 41 -->
-           let re41 = num1 * q * num2-f;
+           let re41 = num1 * y * q * num2-f;
            let cov41 = String(re41);
            let list41 = cov41;
            let li41 = list41[list41.length - 1];
            let li041 = list41[list41.length - 2];
            let li0041 = li041+li41;     
                <!-- 42 -->
-           let re42 = num1 * r * num2-f;
+           let re42 = num1 * y * r * num2-f;
            let cov42 = String(re42);
            let list42 = cov42;
            let li42 = list42[list42.length - 1];
@@ -401,7 +401,7 @@
            
                 <!-- 43 -->
 
-           let re43 = num1 * s * num2-f;
+           let re43 = num1 * y * s * num2-f;
            let cov43 = String(re43);
            let list43 = cov43;
            let li43 = list43[list43.length - 1];
@@ -410,7 +410,7 @@
            
                 <!-- 44 -->
            
-           let re44 = num1 * t * num2-f;
+           let re44 = num1 * y * t * num2-f;
            let cov44 = String(re44);
            let list44 = cov44;
            let li44 = list44[list44.length - 1];
@@ -419,14 +419,14 @@
            
                  <!-- 45 -->
            
-           let re45 = num1 * u * num2-f;
+           let re45 = num1 * y * u * num2-f;
            let cov45 = String(re45);
            let list45 = cov45;
            let li45 = list45[list45.length - 1];
            let li045 = list45[list45.length - 2];
            let li0045 = li045+li45; 
               <!-- 46 -->
-           let re46 = num1 * m * num2-g;
+           let re46 = num1 * y * m * num2-g;
            let cov46 = String(re46);
            let list46 = cov46;
            let li46 = list46[list46.length - 1];
@@ -435,7 +435,7 @@
            
            <!-- 47 -->
 
-           let re47 = num1 * x * num2-g;
+           let re47 = num1 * y * x * num2-g;
            let cov47 = String(re47);
            let list47 = cov47;
            let li47 = list47[list47.length - 1];
@@ -444,7 +444,7 @@
            
             <!-- 48 -->
            
-           let re48 = num1 * o * num2-g;
+           let re48 = num1 * y * o * num2-g;
            let cov48 = String(re48);
            let list48 = cov48;
            let li48 = list48[list48.length - 1];
@@ -453,7 +453,7 @@
            
                  <!-- 49 -->
            
-           let re49 = num1 * p  * num2-g;
+           let re49 = num1 * y * p  * num2-g;
            let cov49 = String(re49);
            let list49 = cov49;
            let li49 = list49[list49.length - 1];
@@ -461,7 +461,7 @@
            let li0049 = li049+li49; 
              <!-- 50 -->
                  
-           let re50 = num1 * q * num2-g;
+           let re50 = num1 * y * q * num2-g;
            let cov50 = String(re50);
            let list50 = cov50;
            let li50 = list50[list50.length - 1];
@@ -470,7 +470,7 @@
            
              <!-- 51 -->
                  
-           let re51 = num1 * r * num2-g;
+           let re51 = num1 * y * r * num2-g;
            let cov51 = String(re51);
            let list51 = cov51;
            let li51 = list51[list51.length - 1];
@@ -478,7 +478,7 @@
            let li0051 = li051+li51;
            <!-- 52 -->
                  
-           let re52 = num1 * s * num2-g;
+           let re52 = num1 * y * s * num2-g;
            let cov52 = String(re52);
            let list52 = cov52;
            let li52 = list52[list52.length - 1];
