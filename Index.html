@@ -1,1 +1,795 @@
 
+<!DOCTYPE html>
+<html lang= "pt-br">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+<link rel= "shortcut icon" href= "/icon/favicon.jpg">
+
+<title>SOMA DO JOGO DO BICHO</title>
+<meta name="description" content="sistema voltado para o intrenimento  - experimente nosso sistema sem compromisso - faça sua soma sem bater cabeça pro rj e lbr">
+
+
+<link rel= "stylesheet" href= "css/style.css">
+<noscript src= "scripts/scriptlogin.js"></noscript>
+
+<script src= "scripts/index.js"></script> 
+
+
+
+</head>
+
+
+
+
+<b style="color: black; font-size: 20px"> 
+Dúvida de como testar o sistema, acesso o tutorial no Youtube no rodapé do site---Apos finalizar o tempo qualquer coisa entre em contato comigo---Estou na torcida pra que obtenha bons resultados</b>
+
+  <body>
+    
+    <center><div style="color:red; font-size: 30px; font-weight: normal" id="dday"></div></center>
+
+
+    <div id="main">
+   <!-- <div id="pri">
+      <iframe id="iframe" width="75" height="65" src="https://www.youtube.com/embed/UrvWTZDqxXU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+      </iframe>
+    </div> -->
+    <div class="pri">
+<iframe id="iframe" src="https://www.loteriasbr.com/site/home"/>
+      </iframe>
+    </div>
+    
+     
+    
+   
+</div>
+	
+		    
+		    
+		    
+		    <div id="entradas">
+		   <!-- <input type="password" placeholder="Digite sua senha" id="pass"> -->
+		    <input type="number" id="nr1" placeholder= "Dezena do 1* prêmio">
+		    <input type="number" id="nr2" placeholder= "Centena do 7* prêmio">
+		    <button id="btn" onclick= "calc()">Calcular</button>
+		    </div>
+		    
+		    
+		    
+		 
+  
+  
+  
+    
+        
+    <div id="table">    
+        
+    <div id="tabelas">
+        
+        
+    <table id="tab1">
+    <tr>
+    <th id="th">Prêmio</th>
+    <th id="th">Milhar</th>
+    <th id="th">Gr.</th>
+    </tr>
+    
+    <tr>
+    <td id="bicho">1°</td>
+    <td id="re1"></td>
+    <td id="cr1"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">2°</td>
+    <td id="re2"></td>
+    <td id="cr2"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">3°</td>
+    <td id="re3"></td>
+    <td id="cr3"></td>
+    </tr>
+
+    <tr>
+    <td id="bicho">4°</td>
+    <td id="re4"></td>
+    <td id="cr4"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">5°</td>
+    <td id="re5"></td>
+    <td id="cr5"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">6°</td>
+    <td id="re6"></td>
+    <td id="cr6"></td>
+    </tr>
+
+    <tr>
+    <td id="bicho">7°</td>
+    <td id="re7"></td>
+    <td id="cr7"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">8°</td>
+    <td id="re8"></td>
+    <td id="cr8"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">9°</td>
+    <td id="re9"></td>
+    <td id="cr9"></td>
+    </tr>
+    
+    
+    </table>
+    
+    </div>
+    
+    
+    
+    
+    <!-- segunda tabela -->
+    <div id="tabelas">
+    
+    <table id="tab2">
+    <tr>
+    <th id="th">Prêmio</th>
+    <th id="th">Milhar</th>
+    <th id="th">Gr.</th>
+    </tr>
+    
+    <tr>
+    <td id="bicho">1°</td>
+    <td id="re10"></td>
+    <td id="cr10"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">2°</td>
+    <td id="re11"></td>
+    <td id="cr11"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">3°</td>
+    <td id="re12"></td>
+    <td id="cr12"></td>
+    </tr>
+
+    <tr>
+    <td id="bicho">4°</td>
+    <td id="re13"></td>
+    <td id="cr13"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">5°</td>
+    <td id="re14"></td>
+    <td id="cr14"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">6°</td>
+    <td id="re15"></td>
+    <td id="cr15"></td>
+    </tr>
+
+    <tr>
+    <td id="bicho">7°</td>
+    <td id="re16"></td>
+    <td id="cr16"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">8°</td>
+    <td id="re17"></td>
+    <td id="cr17"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">9°</td>
+    <td id="re18"></td>
+    <td id="cr18"></td>
+    </tr>
+    
+    
+    </table>
+    
+    </div>
+ 
+ 
+ 
+
+    
+    
+    
+    <!-- terc. tab. -->
+    
+    
+    
+    <div id="tabelas">
+        
+    <table id="tab1">
+    <tr>
+    <th id="th">Prêmio</th>
+    <th id="th">Milhar</th>
+    <th id="th">Gr.</th>
+    </tr>
+    
+    <tr>
+    <td id="bicho">1°</td>
+    <td id="re19"></td>
+    <td id="cr19"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">2°</td>
+    <td id="re20"></td>
+    <td id="cr20"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">3°</td>
+    <td id="re21"></td>
+    <td id="cr21"></td>
+    </tr>
+
+    <tr>
+    <td id="bicho">4°</td>
+    <td id="re22"></td>
+    <td id="cr22"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">5°</td>
+    <td id="re23"></td>
+    <td id="cr23"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">6°</td>
+    <td id="re24"></td>
+    <td id="cr24"></td>
+    </tr>
+
+    <tr>
+    <td id="bicho">7°</td>
+    <td id="re25"></td>
+    <td id="cr25"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">8°</td>
+    <td id="re26"></td>
+    <td id="cr26"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">9°</td>
+    <td id="re27"></td>
+    <td id="cr27"></td>
+    </tr>
+    
+    
+    </table>
+    </div>
+    
+    <!-- segunda tabela -->
+    <div id="tabelas">
+    
+    <table id="tab2">
+    <tr>
+    <th id="th">Prêmio</th>
+    <th id="th">Milhar</th>
+    <th id="th">Gr.</th>
+    </tr>
+    
+    <tr>
+    <td id="bicho">1°</td>
+    <td id="re28"></td>
+    <td id="cr28"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">2°</td>
+    <td id="re29"></td>
+    <td id="cr29"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">3°</td>
+    <td id="re30"></td>
+    <td id="cr30"></td>
+    </tr>
+
+    <tr>
+    <td id="bicho">4°</td>
+    <td id="re31"></td>
+    <td id="cr31"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">5°</td>
+    <td id="re32"></td>
+    <td id="cr32"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">6°</td>
+    <td id="re33"></td>
+    <td id="cr33"></td>
+    </tr>
+
+    <tr>
+    <td id="bicho">7°</td>
+    <td id="re34"></td>
+    <td id="cr34"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">8°</td>
+    <td id="re35"></td>
+    <td id="cr35"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">9°</td>
+    <td id="re36"></td>
+    <td id="cr36"></td>
+    </tr>
+    
+    
+    </table>
+    </div>
+ 
+ 
+ 
+ 
+    
+    
+    
+    <!-- terceira div -->
+    
+    <div id="tabelas">
+    <table id="tab1">
+    <tr>
+    <th id="th">Prêmio</th>
+    <th id="th">Milhar</th>
+    <th id="th">Gr.</th>
+    </tr>
+    
+    <tr>
+    <td id="bicho">1°</td>
+    <td id="re37"></td>
+    <td id="cr37"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">2°</td>
+    <td id="re38"></td>
+    <td id="cr38"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">3°</td>
+    <td id="re39"></td>
+    <td id="cr39"></td>
+    </tr>
+
+    <tr>
+    <td id="bicho">4°</td>
+    <td id="re40"></td>
+    <td id="cr40"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">5°</td>
+    <td id="re41"></td>
+    <td id="cr41"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">6°</td>
+    <td id="re42"></td>
+    <td id="cr42"></td>
+    </tr>
+
+    <tr>
+    <td id="bicho">7°</td>
+    <td id="re43"></td>
+    <td id="cr43"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">8°</td>
+    <td id="re44"></td>
+    <td id="cr44"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">9°</td>
+    <td id="re45"></td>
+    <td id="cr45"></td>
+    </tr>
+    
+    
+    </table>
+    </div>
+    
+    <!-- segunda tabela -->
+    <div id="tabelas">
+    
+    <table id="tab2">
+    <tr>
+    <th id="th">Prêmio</th>
+    <th id="th">Milhar</th>
+    <th id="th">Gr.</th>
+    </tr>
+    
+    <tr>
+    <td id="bicho">1°</td>
+    <td id="re46"></td>
+    <td id="cr46"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">2°</td>
+    <td id="re47"></td>
+    <td id="cr47"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">3°</td>
+    <td id="re48"></td>
+    <td id="cr48"></td>
+    </tr>
+
+    <tr>
+    <td id="bicho">4°</td>
+    <td id="re49"></td>
+    <td id="cr49"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">5°</td>
+    <td id="re50"></td>
+    <td id="cr50"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">6°</td>
+    <td id="re51"></td>
+    <td id="cr51"></td>
+    </tr>
+
+    <tr>
+    <td id="bicho">7°</td>
+    <td id="re52"></td>
+    <td id="cr52"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">8°</td>
+    <td id="re53"></td>
+    <td id="cr53"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">9°</td>
+    <td id="re54"></td>
+    <td id="cr54"></td>
+    </tr>
+    
+    
+    </table>
+    </div>
+ 
+ 
+ 
+    
+    
+    
+    <!-- quarta div -->
+    
+    
+    
+    <div id="tabelas">
+    <table id="tab1">
+    <tr>
+    <th id="th">Prêmio</th>
+    <th id="th">Milhar</th>
+    <th id="th">Gr.</th>
+    </tr>
+    
+    <tr>
+    <td id="bicho">1°</td>
+    <td id="re55"></td>
+    <td id="cr55"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">2°</td>
+    <td id="re56"></td>
+    <td id="cr56"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">3°</td>
+    <td id="re57"></td>
+    <td id="cr57"></td>
+    </tr>
+
+    <tr>
+    <td id="bicho">4°</td>
+    <td id="re58"></td>
+    <td id="cr58"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">5°</td>
+    <td id="re59"></td>
+    <td id="cr59"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">6°</td>
+    <td id="re60"></td>
+    <td id="cr60"></td>
+    </tr>
+
+    <tr>
+    <td id="bicho">7°</td>
+    <td id="re61"></td>
+    <td id="cr61"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">8°</td>
+    <td id="re62"></td>
+    <td id="cr62"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">9°</td>
+    <td id="re63"></td>
+    <td id="cr63"></td>
+    </tr>
+    
+    
+    </table>
+    </div>
+    
+    
+    
+    <!-- segunda tabela -->
+    <div id="tabelas">
+    
+    <table id="tab2">
+    <tr>
+    <th id="th">Prêmio</th>
+    <th id="th">Milhar</th>
+    <th id="th">Gr.</th>
+    </tr>
+    
+    <tr>
+    <td id="bicho">1°</td>
+    <td id="re64"></td>
+    <td id="cr64"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">2°</td>
+    <td id="re65"></td>
+    <td id="cr65"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">3°</td>
+    <td id="re66"></td>
+    <td id="cr66"></td>
+    </tr>
+
+    <tr>
+    <td id="bicho">4°</td>
+    <td id="re67"></td>
+    <td id="cr67"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">5°</td>
+    <td id="re68"></td>
+    <td id="cr68"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">6°</td>
+    <td id="re69"></td>
+    <td id="cr69"></td>
+    </tr>
+
+    <tr>
+    <td id="bicho">7°</td>
+    <td id="re70"></td>
+    <td id="cr70"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">8°</td>
+    <td id="re71"></td>
+    <td id="cr71"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">9°</td>
+    <td id="re72"></td>
+    <td id="cr72"></td>
+    </tr>
+    
+    
+    </table>
+    </div>
+ 
+ 
+ 
+ 
+    
+    
+    <!-- quinta div -->
+    
+    <div id="tabelas">
+    <table id="tab1">
+    <tr>
+    <th id="th">Prêmio</th>
+    <th id="th">Milhar</th>
+    <th id="th">Gr.</th>
+    </tr>
+    
+    <tr>
+    <td id="bicho">1°</td>
+    <td id="re73"></td>
+    <td id="cr73"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">2°</td>
+    <td id="re74"></td>
+    <td id="cr74"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">3°</td>
+    <td id="re75"></td>
+    <td id="cr75"></td>
+    </tr>
+
+    <tr>
+    <td id="bicho">4°</td>
+    <td id="re76"></td>
+    <td id="cr76"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">5°</td>
+    <td id="re77"></td>
+    <td id="cr77"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">6°</td>
+    <td id="re78"></td>
+    <td id="cr78"></td>
+    </tr>
+
+    <tr>
+    <td id="bicho">7°</td>
+    <td id="re79"></td>
+    <td id="cr79"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">8°</td>
+    <td id="re80"></td>
+    <td id="cr80"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">9°</td>
+    <td id="re81"></td>
+    <td id="cr81"></td>
+    </tr>
+    
+    
+    </table>
+    </div>
+    
+    <div id="tabelas">
+    <table id="tab1">
+    <tr>
+    <th id="th">Prêmio</th>
+    <th id="th">Milhar</th>
+    <th id="th">Gr.</th>
+    </tr>
+    
+    <tr>
+    <td id="bicho">1°</td>
+    <td id="re82"></td>
+    <td id="cr82"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">2°</td>
+    <td id="re83"></td>
+    <td id="cr83"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">3°</td>
+    <td id="re84"></td>
+    <td id="cr84"></td>
+    </tr>
+
+    <tr>
+    <td id="bicho">4°</td>
+    <td id="re85"></td>
+    <td id="cr85"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">5°</td>
+    <td id="re86"></td>
+    <td id="cr86"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">6°</td>
+    <td id="re87"></td>
+    <td id="cr87"></td>
+    </tr>
+
+    <tr>
+    <td id="bicho">7°</td>
+    <td id="re88"></td>
+    <td id="cr88"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">8°</td>
+    <td id="re89"></td>
+    <td id="cr89"></td>
+    </tr>
+    
+    <tr>
+    <td id="bicho">9°</td>
+    <td id="re90"></td>
+    <td id="cr90"></td>
+    </tr>
+    </table>
+    </div>
+    
+   <div class="pri">
+<iframe id="iframe" src="https://bichocerto.com/atrasados/rj/pt/"/>
+      </iframe>
+    </div>
+    <footer>
+   <center><div style= 'padding-top: 1em; height:20px; width:400px; font-size:30px; margin-top: 50px;'>
+<a href='https://youtu.be/KdUTrTPRILQ/'><h3>TUTORIAL NO YOUTUBE</h3></a></center>
+
+</footer>
+    </div>
+    </div>
+    
+   
+  
+      
+    
+  </body>
+</html>
